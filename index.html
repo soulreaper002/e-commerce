@@ -8,6 +8,22 @@
 	<title>ELENGANT SHOPPING</title>
 	
 	<script src="https://use.fontawesome.com/e01d526aeb.js"></script>
+	<style>
+		.button {
+  background-color:#FF5733;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+   -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+	</style>
 
 
 </head>
@@ -28,13 +44,13 @@
 		<form>
 			
 			 <input type="text" placeholder="Search.." name="search">
- 			 <button type="submit"><i class="fa fa-search"></i></button>
+ 			 <button class="button" type="submit"><i class="fa fa-search"></i></button>
 
-			<a href="cart.html"><input type="button" name="cart" value= "cart"></a>
+			<a href="cart.html"><input type="button" class="button" name="cart" value= "cart"></a>
 	
 			
 			<select type="dropdown">
-				<option value="More">More</option>
+				<option class="button" value="More">More</option>
 				<option value="guest_order" selected>Find Guest Order</option>
 				<option value="Helpcentre">Help Centre</option>
 			</select>
